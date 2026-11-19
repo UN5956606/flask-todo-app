@@ -8,7 +8,7 @@ class Config(object):
     # Flask config
     SECRET_KEY = '^753*&FdFS#4D'
     SQLALCHEMY_RECORD_QUERIES = True
-    SQLALCHEMY_TRACK_MODIFICATIONS = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Email config
     MAIL_SERVER = 'smtp.qq.com'
